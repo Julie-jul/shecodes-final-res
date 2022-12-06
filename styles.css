@@ -1,0 +1,174 @@
+:root {
+  --font-color: #1a100f;
+  --button-color: #b59a7c;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+}
+
+.hero {
+  background-color: #f2e7df;
+  background-image: url(background-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 260px 0;
+  max-height: 900px;
+}
+
+h1,
+h2,
+p,
+.btn-branding,
+h3 {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--font-color);
+}
+.main-page-text {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  color: var(--font-color);
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  padding: 0px 50px 5%;
+}
+
+h1,
+h2,
+.btn-branding,
+h3 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 46px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 84px;
+  padding: 25px 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 20%;
+}
+
+.btn-branding {
+  background: var(--button-color);
+  font-family: var(--secondary-font);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 18px 30px;
+  margin-top: 48px;
+}
+.grid-img {
+  display: flex;
+  width: 100%;
+  max-height: auto;
+}
+
+body {
+  background: #f2e7df;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 62px;
+    padding: 15px 0;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+
+  .hero {
+    max-height: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+
+  .hero {
+    padding: 180px 0;
+    max-height: 700px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .main-page-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 38px;
+    padding: 0px;
+  }
+  .col-sm-6 {
+    padding-top: 15px;
+  }
+  .hero {
+    padding: 130px 0;
+    max-height: 600px;
+  }
+  .non-visible {
+    display: none;
+  }
+  .visible {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 458px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .main-page-text {
+    font-size: 12px;
+  }
+  .hero {
+    padding: 100px 0;
+    max-height: 500px;
+  }
+}
