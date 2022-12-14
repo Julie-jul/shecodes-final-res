@@ -3,6 +3,7 @@
   --button-color: #b59a7c;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
+  --add-color: #f65282;
 }
 
 .hero {
@@ -171,4 +172,106 @@ body {
     padding: 100px 0;
     max-height: 500px;
   }
+}
+
+.about-picture {
+  padding-left: 0px;
+}
+.about-picture img {
+  max-height: 780px;
+}
+
+.red-text {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--add-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.red-first {
+  margin-top: 51px;
+}
+
+.about-info {
+  padding-left: 40px;
+}
+
+.about-h1 {
+  padding-top: 32px;
+  padding-bottom: 34px;
+  font-size: 54px;
+  line-height: 75px;
+  color: var(--font-color);
+  margin-bottom: 0px;
+}
+
+.hello-block {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.about-text {
+  font-family: var(--font-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 50px;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.social-icons a {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--font-color);
+}
+.social-icons {
+  padding-left: 0px;
+  margin-bottom: 66px;
+}
+
+.camera li {
+  display: inline-block;
+}
+.camera ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.camera {
+  padding: 20px;
+  background: #5b5151;
+  width: 435px;
+}
+
+.camera-text {
+  font-family: var(--main-font);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 0px;
+
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.red-second {
+  margin-bottom: 32px;
+}
+
+.about-portfolio {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
