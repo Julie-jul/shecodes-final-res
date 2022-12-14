@@ -88,6 +88,35 @@ body {
   background: #f2e7df;
 }
 
+@media (max-width: 1400px) {
+  .about-info .about-h1 h1 {
+    font-size: 36px;
+    line-height: 50px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+  }
+
+  .about-info p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .about-info ul {
+    margin-bottom: 28px;
+  }
+  .red-second h5 {
+    margin-bottom: 18px;
+  }
+  .camera {
+    padding: 13px;
+  }
+  .camera p {
+    font-size: 14px;
+  }
+  .camera ul {
+    width: 330px;
+  }
+}
 @media (max-width: 1000px) {
   h1 {
     font-size: 62px;
@@ -102,6 +131,31 @@ body {
 
   .hero {
     max-height: 800px;
+  }
+  .red-text h5 {
+    font-size: 16px;
+  }
+
+  .about-info .about-h1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+  }
+
+  .about-info p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 22px;
+  }
+  .about-info ul {
+    margin-bottom: 22px;
+  }
+  .red-second {
+    display: none;
+  }
+  .camera {
+    display: none;
   }
 }
 
@@ -128,6 +182,15 @@ body {
   .main-page-text {
     font-size: 16px;
   }
+  .about-picture {
+    display: none;
+  }
+  .about-info .about-h1 h1 {
+    padding-left: 0px;
+  }
+  .about-info {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
@@ -149,6 +212,9 @@ body {
     width: 65%;
     display: block;
     margin: 0 auto;
+  }
+  .about-portfolio {
+    margin: 20px;
   }
 }
 
@@ -199,7 +265,7 @@ body {
   padding-left: 40px;
 }
 
-.about-h1 {
+.about-h1 h1 {
   padding-top: 32px;
   padding-bottom: 34px;
   font-size: 54px;
@@ -223,6 +289,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .social-icons li {
@@ -238,6 +305,9 @@ body {
 .social-icons {
   padding-left: 0px;
   margin-bottom: 66px;
+}
+.camera p {
+  margin-bottom: 0px;
 }
 
 .camera li {
