@@ -157,6 +157,11 @@ body {
   .camera {
     display: none;
   }
+
+  .work-section h1 {
+    margin-bottom: 80px;
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -191,6 +196,13 @@ body {
   .about-info {
     text-align: center;
   }
+  .work-section h1 {
+    margin-bottom: 60px;
+    font-size: 52px;
+  }
+  .work-section .col-sm-6 {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -215,6 +227,11 @@ body {
   }
   .about-portfolio {
     margin: 20px;
+  }
+  .work-section .col-sm-6 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -344,4 +361,17 @@ body {
 .about-portfolio {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.work-h1 {
+  text-align: center;
+  padding-top: 32px;
+  margin-bottom: 166px;
+}
+.work-section .row {
+  margin-bottom: 40px;
+}
+
+.last-work-row {
+  padding-bottom: 60px;
 }
