@@ -162,6 +162,9 @@ body {
     margin-bottom: 80px;
     font-size: 60px;
   }
+  .credits p {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -190,6 +193,16 @@ body {
   .about-picture {
     display: none;
   }
+
+  .hello-block {
+    display: inline;
+    text-align: center;
+  }
+  .hello-block p {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .about-info .about-h1 h1 {
     padding-left: 0px;
   }
@@ -202,6 +215,17 @@ body {
   }
   .work-section .col-sm-6 {
     margin-bottom: 20px;
+  }
+
+  .main-gallery img {
+    padding-top: 25px;
+  }
+  .footer-invisible {
+    display: none;
+  }
+
+  .credits p {
+    display: none;
   }
 }
 
@@ -236,6 +260,13 @@ body {
   body .contact-h1 h1 {
     padding-bottom: 80px;
   }
+  .footer-invisible {
+    display: none;
+  }
+
+  .credits p {
+    display: none;
+  }
 }
 
 @media (max-width: 458px) {
@@ -260,6 +291,13 @@ body {
   }
   body .contact-h1 h1 {
     padding-bottom: 60px;
+  }
+  .footer-invisible {
+    display: none;
+  }
+
+  .credits p {
+    display: none;
   }
 }
 
@@ -418,7 +456,7 @@ body {
   font-size: 22px;
 }
 .contact-phone {
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
 .logo {
   max-height: 22px;
@@ -439,4 +477,42 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: var(--font-color);
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  padding: 2px 15px;
+}
+
+footer a {
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: var(--font-color);
+  opacity: 0.7;
+}
+footer {
+  padding: 10px;
+  background: var(--button-color);
+}
+footer ul {
+  margin-bottom: 0px;
+}
+.index-last-row {
+  margin-bottom: 100px;
+}
+
+.credits {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px;
+}
+.credits p {
+  margin-bottom: 0px;
+  padding: 0px;
 }
