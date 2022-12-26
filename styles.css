@@ -516,3 +516,17 @@ footer ul {
   margin-bottom: 0px;
   padding: 0px;
 }
+
+.github {
+  margin-top: 30px;
+}
+
+.github a {
+  color: #5b5151;
+  text-decoration: none;
+}
+
+.github a:hover {
+  opacity: 0.7;
+}
+
